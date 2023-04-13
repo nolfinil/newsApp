@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: #7B0000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.nolfin_ilya_220107008.ContactUs">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="92.0" layoutY="14.0" prefHeight="49.0" prefWidth="217.0" text="Contact Us" textFill="WHITE">
+         <font>
+            <Font name="Heiti TC Medium" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="5.0" layoutY="70.0" prefHeight="58.0" prefWidth="391.0" text="Email: 220107008@stu.sdu.edu.kz" textFill="WHITE">
+         <font>
+            <Font name="Heiti TC Medium" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="88.0" fitWidth="148.0" layoutX="156.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/kitty.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
